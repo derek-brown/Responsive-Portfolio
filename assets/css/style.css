@@ -86,19 +86,26 @@ p, a{
     float: left;
     margin: 10px;
 }
-.image1, .image3,
-.image5{
+.image1, .image3,.image5{
     float: left;
 }
 .image2, .image4{
     float: right;
 }
+
 .image1, .image2,
 .image3, .image4,
 .image5{
     width: 210px;
     height: 158px;
     background-image: url('../images/PortfolioPicSmaller.jpg');
+}
+.image1, .image2,
+.image3, .image4 {
+    margin: 20px 70px 20px 70px;
+}
+.image5{
+    margin: 0 210px 0 210px;
 }
 .image1 h3, .image2 h3,
 .image3 h3, .image4 h3,
